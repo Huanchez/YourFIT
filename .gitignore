@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+
+# профиль браузера Playwright — накапливает cookies/историю локально
+.chrome-profile/
+
+# секреты и локальные данные сессии — не должны попадать в git
+credentials.json
+token.json
+cookies.json
+
+# отладочные артефакты
+error.png
+*.log
